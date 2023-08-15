@@ -1,0 +1,34 @@
+{
+  "type": "module",
+  "license": "UNLICENSED",
+  "scripts": {
+    "build": "rollup --config rollup.config.js",
+    "dev": "rollup --config rollup.config.js -w",
+    "devSite": "rollup --config rollup.config.site.js -w",
+    "site": "vite ./site"
+  },
+  "devDependencies": {
+    "@rollup/plugin-image": "^3.0.2",
+    "@rollup/plugin-typescript": "^11.0.0",
+    "@types/lodash": "^4.14.191",
+    "esbuild-register": "^3.4.2",
+    "konva": "^8.4.2",
+    "lodash": "^4.17.21",
+    "rollup": "^3.11.0",
+    "rollup-plugin-dts": "^5.1.1",
+    "tslib": "^2.5.0",
+    "typescript": "^4.9.4",
+    "video.js": "^8.0.4",
+    "videojs-flash": "^2.2.1",
+    "vite": "^4.0.4",
+    "vue-router": "^4.1.6"
+  },
+  "dependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "@vitejs/plugin-vue-jsx": "^3.0.0",
+    "axios": "^1.3.2",
+    "dayjs": "^1.11.7",
+    "inl-ui": "0.1.0-rc.140",
+    "vue": "^3.2.47"
+  }
+}
